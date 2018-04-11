@@ -22,7 +22,7 @@ namespace SmartPark
             if(this.txUserName.Text == "a" && this.txPassword.Text == "1")
             {
                 MainForm main = new MainForm();
-                this.Visible = false;
+                this.Hide();
                 main.ShowDialog();
             }else
             {

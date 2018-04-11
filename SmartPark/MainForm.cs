@@ -15,9 +15,18 @@ namespace SmartPark
         public MainForm()
         {
             InitializeComponent();
+            /*
+            this.Hide();
+            LoginForm login = new LoginForm();
+            login.ShowDialog();*/
         }
 
         private void MenuItemQuit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }

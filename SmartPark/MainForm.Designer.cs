@@ -39,17 +39,17 @@
             this.服务器地址ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuItemQuit = new System.Windows.Forms.ToolStripMenuItem();
             this.会员管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.财务结算ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.商品出售ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.等级管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.会籍管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.折扣管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.等级管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.财务结算ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.商品出售ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.场地预定ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
-            this.场地预定ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -84,19 +84,19 @@
             this.类别设置ToolStripMenuItem,
             this.场地列表ToolStripMenuItem});
             this.MenuItem_PlaceManage.Name = "MenuItem_PlaceManage";
-            this.MenuItem_PlaceManage.Size = new System.Drawing.Size(152, 22);
+            this.MenuItem_PlaceManage.Size = new System.Drawing.Size(145, 22);
             this.MenuItem_PlaceManage.Text = "场地管理";
             // 
             // 类别设置ToolStripMenuItem
             // 
             this.类别设置ToolStripMenuItem.Name = "类别设置ToolStripMenuItem";
-            this.类别设置ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.类别设置ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.类别设置ToolStripMenuItem.Text = "类别设置";
             // 
             // 场地列表ToolStripMenuItem
             // 
             this.场地列表ToolStripMenuItem.Name = "场地列表ToolStripMenuItem";
-            this.场地列表ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.场地列表ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.场地列表ToolStripMenuItem.Text = "场地列表";
             // 
             // MenuItem_SystemConfig
@@ -105,26 +105,26 @@
             this.用户管理ToolStripMenuItem,
             this.服务器地址ToolStripMenuItem});
             this.MenuItem_SystemConfig.Name = "MenuItem_SystemConfig";
-            this.MenuItem_SystemConfig.Size = new System.Drawing.Size(152, 22);
+            this.MenuItem_SystemConfig.Size = new System.Drawing.Size(145, 22);
             this.MenuItem_SystemConfig.Text = "系统设置";
             // 
             // 用户管理ToolStripMenuItem
             // 
             this.用户管理ToolStripMenuItem.Name = "用户管理ToolStripMenuItem";
-            this.用户管理ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.用户管理ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.用户管理ToolStripMenuItem.Text = "用户管理";
             // 
             // 服务器地址ToolStripMenuItem
             // 
             this.服务器地址ToolStripMenuItem.Name = "服务器地址ToolStripMenuItem";
-            this.服务器地址ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.服务器地址ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.服务器地址ToolStripMenuItem.Text = "服务器设置";
             // 
             // MenuItemQuit
             // 
             this.MenuItemQuit.Name = "MenuItemQuit";
             this.MenuItemQuit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.MenuItemQuit.Size = new System.Drawing.Size(152, 22);
+            this.MenuItemQuit.Size = new System.Drawing.Size(145, 22);
             this.MenuItemQuit.Text = "退出";
             this.MenuItemQuit.Click += new System.EventHandler(this.MenuItemQuit_Click);
             // 
@@ -138,6 +138,24 @@
             this.会员管理ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.会员管理ToolStripMenuItem.Text = "会员管理";
             // 
+            // 等级管理ToolStripMenuItem
+            // 
+            this.等级管理ToolStripMenuItem.Name = "等级管理ToolStripMenuItem";
+            this.等级管理ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.等级管理ToolStripMenuItem.Text = "等级管理";
+            // 
+            // 会籍管理ToolStripMenuItem
+            // 
+            this.会籍管理ToolStripMenuItem.Name = "会籍管理ToolStripMenuItem";
+            this.会籍管理ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.会籍管理ToolStripMenuItem.Text = "会籍管理";
+            // 
+            // 折扣管理ToolStripMenuItem
+            // 
+            this.折扣管理ToolStripMenuItem.Name = "折扣管理ToolStripMenuItem";
+            this.折扣管理ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.折扣管理ToolStripMenuItem.Text = "折扣管理";
+            // 
             // 财务结算ToolStripMenuItem
             // 
             this.财务结算ToolStripMenuItem.Name = "财务结算ToolStripMenuItem";
@@ -150,23 +168,11 @@
             this.商品出售ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.商品出售ToolStripMenuItem.Text = "商品管理";
             // 
-            // 会籍管理ToolStripMenuItem
+            // 场地预定ToolStripMenuItem
             // 
-            this.会籍管理ToolStripMenuItem.Name = "会籍管理ToolStripMenuItem";
-            this.会籍管理ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.会籍管理ToolStripMenuItem.Text = "会籍管理";
-            // 
-            // 折扣管理ToolStripMenuItem
-            // 
-            this.折扣管理ToolStripMenuItem.Name = "折扣管理ToolStripMenuItem";
-            this.折扣管理ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.折扣管理ToolStripMenuItem.Text = "折扣管理";
-            // 
-            // 等级管理ToolStripMenuItem
-            // 
-            this.等级管理ToolStripMenuItem.Name = "等级管理ToolStripMenuItem";
-            this.等级管理ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.等级管理ToolStripMenuItem.Text = "等级管理";
+            this.场地预定ToolStripMenuItem.Name = "场地预定ToolStripMenuItem";
+            this.场地预定ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
+            this.场地预定ToolStripMenuItem.Text = "场地预定";
             // 
             // toolStrip1
             // 
@@ -223,12 +229,6 @@
             this.toolStripButton4.Size = new System.Drawing.Size(55, 55);
             this.toolStripButton4.Text = "toolStripButton4";
             // 
-            // 场地预定ToolStripMenuItem
-            // 
-            this.场地预定ToolStripMenuItem.Name = "场地预定ToolStripMenuItem";
-            this.场地预定ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
-            this.场地预定ToolStripMenuItem.Text = "场地预定";
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -241,6 +241,7 @@
             this.MainMenuStrip = this.menuStrip;
             this.Name = "MainForm";
             this.Text = "管理系统";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainForm_FormClosed);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
