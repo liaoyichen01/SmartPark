@@ -28,45 +28,53 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.系统管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.场地管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.退出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.MenuItem_SystemConfig = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuItem_PlaceManage = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuItemQuit = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // menuStrip
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.系统管理ToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(884, 25);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip.Name = "menuStrip";
+            this.menuStrip.Size = new System.Drawing.Size(884, 25);
+            this.menuStrip.TabIndex = 0;
+            this.menuStrip.Text = "menuStrip1";
             // 
             // 系统管理ToolStripMenuItem
             // 
             this.系统管理ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.场地管理ToolStripMenuItem,
-            this.退出ToolStripMenuItem});
+            this.MenuItem_SystemConfig,
+            this.MenuItem_PlaceManage,
+            this.MenuItemQuit});
             this.系统管理ToolStripMenuItem.Name = "系统管理ToolStripMenuItem";
             this.系统管理ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.系统管理ToolStripMenuItem.Text = "系统管理";
             // 
-            // 场地管理ToolStripMenuItem
+            // MenuItem_SystemConfig
             // 
-            this.场地管理ToolStripMenuItem.Name = "场地管理ToolStripMenuItem";
-            this.场地管理ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.场地管理ToolStripMenuItem.Text = "场地管理";
+            this.MenuItem_SystemConfig.Name = "MenuItem_SystemConfig";
+            this.MenuItem_SystemConfig.Size = new System.Drawing.Size(152, 22);
+            this.MenuItem_SystemConfig.Text = "系统设置";
             // 
-            // 退出ToolStripMenuItem
+            // MenuItem_PlaceManage
             // 
-            this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-            this.退出ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.退出ToolStripMenuItem.Text = "退出";
-            this.退出ToolStripMenuItem.Click += new System.EventHandler(this.退出ToolStripMenuItem_Click);
+            this.MenuItem_PlaceManage.Name = "MenuItem_PlaceManage";
+            this.MenuItem_PlaceManage.Size = new System.Drawing.Size(152, 22);
+            this.MenuItem_PlaceManage.Text = "场地管理";
+            // 
+            // MenuItemQuit
+            // 
+            this.MenuItemQuit.Name = "MenuItemQuit";
+            this.MenuItemQuit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
+            this.MenuItemQuit.Size = new System.Drawing.Size(152, 22);
+            this.MenuItemQuit.Text = "退出";
+            this.MenuItemQuit.Click += new System.EventHandler(this.MenuItemQuit_Click);
             // 
             // MainForm
             // 
@@ -74,13 +82,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(884, 561);
-            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.menuStrip);
             this.IsMdiContainer = true;
-            this.MainMenuStrip = this.menuStrip1;
+            this.MainMenuStrip = this.menuStrip;
             this.Name = "MainForm";
             this.Text = "管理系统";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.menuStrip.ResumeLayout(false);
+            this.menuStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -88,10 +96,11 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip menuStrip;
         private System.Windows.Forms.ToolStripMenuItem 系统管理ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 场地管理ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 退出ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem MenuItem_PlaceManage;
+        private System.Windows.Forms.ToolStripMenuItem MenuItemQuit;
+        private System.Windows.Forms.ToolStripMenuItem MenuItem_SystemConfig;
     }
 }
 

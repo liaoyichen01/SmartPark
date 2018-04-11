@@ -17,7 +17,7 @@ namespace SmartPark
             InitializeComponent();
         }
 
-        private void 退出ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void MenuItemQuit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
